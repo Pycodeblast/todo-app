@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo form</title>
+    <link rel="stylesheet" href="todo.css"/>
+</head>
+<body>
+    <div class="todo">
+        <h1>Todo  app</h1>
+        <br><br>
+        <label for="">Title</label>
+        <br><br>
+        <input type="text" id="title"/>
+        <br><br>
+        <label for="">Description</label>
+        <br><br>
+        <textarea name="" id="description"></textarea>
+        <br><br>
+        <button id="btn" onclick="createtodo()">save</button>
+    </div>
+    <div class="listitem">
+        <ul id="todolist"></ul>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>

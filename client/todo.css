@@ -1,0 +1,49 @@
+.todo{
+    width:30%;
+    background-color: blueviolet;
+    margin-left: 30px;
+    padding: 20px 30px;
+    border: rgb(32, 197, 226) solid;
+    border-radius: 5px;
+    border-width: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+#btn{
+    background-color: rgb(11, 59, 248);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    margin:3px;
+}
+#btne{
+    background-color: rgb(28, 152, 43);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#btnd{
+    background-color: rgb(190, 52, 10);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.listitem{
+    background-color: chocolate;
+    width: 40%;
+    padding: 30px;
+    margin-left: 50%;
+    margin-top: -20%;
+    border:rgb(171, 19, 44) solid;
+    border-width: 10px;
+}
+#title{
+    width: 50%;
+    height: 30px;
+}
+#description{
+    width: 70%;
+    height: 40px;
+}
